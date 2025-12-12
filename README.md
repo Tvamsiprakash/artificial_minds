@@ -8,7 +8,7 @@ A modular, end-to-end Machine Learning pipeline designed to predict customer ten
 
 ## 🎯 Project Goal
 **"We don't just predict IF they will leave; we predict WHEN."**
-By analyzing demographics, usage frequency, and support interactions, we forecast the total duration (in days) a customer represents value to the company.
+By analyzing demographics, usage frequency, and support interactions, we forecast the total duration a customer represents value to the company.
 
 ---
 
@@ -159,6 +159,7 @@ with open("best_xgboost_tuned.pkl", "wb") as f:
 ## Prediction
 
 ![WhatsApp Image 2025-12-12 at 18 53 28](https://github.com/user-attachments/assets/6dad3c93-8118-4eee-a4ee-ec345fd3726f)
+
 
 
 
