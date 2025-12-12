@@ -148,3 +148,13 @@ import pickle
 with open("best_xgboost_tuned.pkl", "wb") as f:
     pickle.dump(best_xgb, f)
 
+```
+## StreamLit - FrontEnd
+
+![WhatsApp Image 2025-12-12 at 18 52 58](https://github.com/user-attachments/assets/8a13f2dd-e60b-42bb-8ca2-68a8f9e6b349)
+
+## Prediction
+
+![WhatsApp Image 2025-12-12 at 18 53 28](https://github.com/user-attachments/assets/8fa7dd74-4f08-4693-bae1-4407943e5c24)
+
+
