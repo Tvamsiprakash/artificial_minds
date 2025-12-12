@@ -14,6 +14,8 @@ By analyzing demographics, usage frequency, and support interactions, we forecas
 
 ## 🏗 Architecture & Modules
 
+<img width="1024" height="747" alt="image" src="https://github.com/user-attachments/assets/2a3cd40b-c748-4078-a2f9-348779b4fd39" />
+
 ### 1. Data Ingestion Layer 
 * **Function:** Loads raw customer data from CSV/Excel sources.
 * **Logic:** Filters dataset to train *only* on historical churned customers (to learn completed lifecycles), ensuring accurate "Total Lifetime" modeling.
