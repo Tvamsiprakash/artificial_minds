@@ -70,13 +70,15 @@ The final **tuned XGBoost model** achieved the highest accuracy and was saved fo
 
 ## ⚙️ Workflow
 
-### 1. Data Preparation
-* **Datasets:** Loaded train and test datasets (`cleaned_train.csv`, `test_9000.csv`).
-* **Target Variable:** `Tenure`.
-* **Features:** All other columns except `CustomerID`.
-* **Preprocessing:**
-    * **Categorical features:** Imputation (most frequent) + OneHotEncoding.
-    * **Numerical features:** Imputation (median) + StandardScaler.
+### 1. Data Preparation and Exploratory Data Analysis
+* **Filtered Dataset:** Retained only customers with Churn = 1 to ensure Tenure represents complete customer lifecycle.
+* **Data Quality Check:** Examined missing values, duplicates, dataset structure, and summary statistics.
+* **Exploratory Data Analysis:** Generated histograms for numeric features and countplots for categorical features to understand distributions and class balance.
+* **Outlier Handling:** Applied IQR-based capping to numeric features to reduce the influence of extreme values.
+* **Feature Encoding & Scaling:** Label-encoded categorical variables and standardized numeric features for uniform model input.
+* **Correlation Analysis:** Produced a correlation heatmap after removing ID and Churn columns to identify relationships between variables.
+<img width="1210" height="945" alt="image" src="https://github.com/user-attachments/assets/5f8c3f36-d6c4-431d-addf-ba4768214dc8" />
+
 
 ### 2. Models Implemented
 * Linear Regression
