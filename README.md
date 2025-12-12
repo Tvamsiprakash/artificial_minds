@@ -14,7 +14,8 @@ By analyzing demographics, usage frequency, and support interactions, we forecas
 
 ## 🏗 Architecture & Modules
 
-<img width="1024" height="747" alt="image" src="https://github.com/user-attachments/assets/2a3cd40b-c748-4078-a2f9-348779b4fd39" />
+<img width="918" height="716" alt="image" src="https://github.com/user-attachments/assets/8800cdd5-bc47-4d93-a57c-7eee392da1bf" />
+
 
 ### 1. Data Ingestion Layer 
 * **Function:** Loads raw customer data from CSV/Excel sources.
@@ -149,12 +150,15 @@ with open("best_xgboost_tuned.pkl", "wb") as f:
     pickle.dump(best_xgb, f)
 
 ```
+<img width="848" height="703" alt="image" src="https://github.com/user-attachments/assets/cfe76c29-a7ee-4c72-8b6c-57cd34df76dc" />
+
 ## StreamLit - FrontEnd
 
 ![WhatsApp Image 2025-12-12 at 18 52 58](https://github.com/user-attachments/assets/8a13f2dd-e60b-42bb-8ca2-68a8f9e6b349)
 
 ## Prediction
 
-![WhatsApp Image 2025-12-12 at 18 53 28](https://github.com/user-attachments/assets/8fa7dd74-4f08-4693-bae1-4407943e5c24)
+![WhatsApp Image 2025-12-12 at 18 53 28](https://github.com/user-attachments/assets/6dad3c93-8118-4eee-a4ee-ec345fd3726f)
+
 
 
